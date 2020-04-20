@@ -1,6 +1,6 @@
-FROM centos/python-36-centos7:latest
+FROM registry.fedoraproject.org/f32/python3
 MAINTAINER Tobias Florek <tob@butter.sh>
 
 USER 0
-RUN yum install -y fop && yum clean all
+RUN dnf install -y fop && dnf clean all
 USER 1001
