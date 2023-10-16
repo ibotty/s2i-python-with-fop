@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/f32/python3
+FROM quay.io/fedora/python-311:latest
 MAINTAINER Tobias Florek <tob@butter.sh>
 
 USER 0
